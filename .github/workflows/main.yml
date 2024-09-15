@@ -24,9 +24,12 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
 
-      # Log in to ACR
-      - name: Log in to Azure Container Registry
-        run: echo "${{ secrets.AZURE_ACR_PASSWORD }}" | docker login ${{ env.AZURE_ACR_LOGIN_SERVER }} -u ${{ secrets.AZURE_ACR_USERNAME }} --password-stdin
+      - name: 'Login to ACR'
+        uses: azure/docker-login@v1
+        with:
+            login-server: dungdtacr.azurecr.io
+            username: dungdtacr
+            password: ${{ secrets.AZURE_ACR_PASSWORD }}
 
       # Build Docker image
       - name: Build Docker image
