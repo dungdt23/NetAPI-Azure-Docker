@@ -31,3 +31,4 @@
 /home/dungdt/dotnet-demos/NetAPI-Azure-Docker/obj/Debug/net8.0/NetAPI-Azure-Docker.pdb
 /home/dungdt/dotnet-demos/NetAPI-Azure-Docker/obj/Debug/net8.0/NetAPI-Azure-Docker.genruntimeconfig.cache
 /home/dungdt/dotnet-demos/NetAPI-Azure-Docker/obj/Debug/net8.0/ref/NetAPI-Azure-Docker.dll
+/home/dungdt/dotnet-demos/NetAPI-Azure-Docker/obj/Debug/net8.0/NetAPI-Azure-Docker.sourcelink.json

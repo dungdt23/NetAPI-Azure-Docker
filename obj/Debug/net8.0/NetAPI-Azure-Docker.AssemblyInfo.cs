@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetAPI-Azure-Docker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e3e7b0071aa11a8b4131172e53069e0f33d8763")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetAPI-Azure-Docker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetAPI-Azure-Docker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
