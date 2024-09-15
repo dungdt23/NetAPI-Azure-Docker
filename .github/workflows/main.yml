@@ -10,7 +10,7 @@ env:
   AZURE_WEBAPP_NAME: dungdt-netapi-azure-docker  
   AZURE_ACR_NAME: dungdtacr 
   IMAGE_NAME: netapi-azure-docker 
-  AZURE_ACR_LOGIN_SERVER: ${{ env.AZURE_ACR_NAME }}.azurecr.io
+  AZURE_ACR_LOGIN_SERVER: dungdtacr.azurecr.io
 
 jobs:
   build-and-push:
