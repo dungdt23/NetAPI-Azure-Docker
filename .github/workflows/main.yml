@@ -27,8 +27,8 @@ jobs:
       - name: 'Login to ACR'
         uses: azure/docker-login@v1
         with:
-            login-server: dungdtacr.azurecr.io
-            username: dungdtacr
+            login-server: ${{ env.AZURE_ACR_LOGIN_SERVER }}
+            username: ${{ env.AZURE_ACR_NAME }}
             password: ${{ secrets.AZURE_ACR_PASSWORD }}
 
       # Build Docker image
