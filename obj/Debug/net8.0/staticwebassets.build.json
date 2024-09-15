@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6JdIGxutkmgpR2WOvdkhIwLfCHMQcPVt5da79JI3mh4=",
+  "Source": "NetAPI-Azure-Docker",
+  "BasePath": "_content/NetAPI-Azure-Docker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
